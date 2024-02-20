@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tangga Angka</title>
+<style>
+    body {
+        background-color: aqua; /* Warna latar belakang */
+    }
+
+    .container {
+        
+        display: flex;
+        flex-direction: column; /* Mengatur container agar menjadi kolom */
+        align-items: flex-start; /* Mengatur alignment agar dimulai dari kiri */
+    }
+
+    .box {
+        width: 50px;
+        height: 50px;
+        border: 1px solid #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        margin-bottom: 0px; /* Memberi jarak antar kotak */
+        background-color: red;
+    }
+
+    .row {
+        
+        display: flex;
+        justify-content: flex-start;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="box">1</div>
+    </div>
+    <div class="row">
+        <div class="box">2</div>
+        <div class="box">2</div>
+    </div>
+    <div class="row">
+        <div class="box">3</div>
+        <div class="box">3</div>
+        <div class="box">3</div>
+    </div>
+    
+</div>
+</body>
+</html>
